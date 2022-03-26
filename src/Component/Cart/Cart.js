@@ -1,7 +1,8 @@
 import React from 'react';
 import SelectedCart from '../SelctedCart/SelectedCart';
 import './Cart.css'
-const Cart = ({carts,removecart}) => {
+const Cart = ({carts,removecart,randomitem}) => {
+            console.log(randomitem)
             return (     
                 <div className='cart'>
                     <h3>Guitter add item list</h3>
