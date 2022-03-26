@@ -25,7 +25,7 @@ const Guitter = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart carts={cart}></Cart>
               
              
             </div>

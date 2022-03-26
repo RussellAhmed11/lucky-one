@@ -1,0 +1,11 @@
+.selected-cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    gap: 3px;
+}
+.selected-cart img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
