@@ -44,3 +44,8 @@
 .btn-cart:hover{
     background-color: orange;
 }
+@media screen and(max-width:480px){
+    .product-info{
+        margin:0px 0px;
+    }  
+}

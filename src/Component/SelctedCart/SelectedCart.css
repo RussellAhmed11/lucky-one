@@ -9,3 +9,12 @@
     height: 50px;
     width: 50px;
 }
+@media screen and (max-width:480px) {
+    .selected-cart{
+        padding: 2px;
+    }
+    .selected-cart img{
+        height: 30px;
+        width: 30px;
+    }
+}
