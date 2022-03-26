@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Guitter.css'
 
@@ -24,7 +25,9 @@ const Guitter = () => {
                 }
             </div>
             <div className="cart-container">
-                <h2>Order summery:{cart.length}</h2>
+                <Cart cart={cart}></Cart>
+              
+             
             </div>
         </div>
     );
