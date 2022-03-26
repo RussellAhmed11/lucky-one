@@ -14,4 +14,7 @@
     .product-container{
         grid-template-columns: 1fr;
     }
+    .body-container{
+        grid-template-columns: 3fr 1fr;
+    }
 }
