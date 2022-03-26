@@ -18,6 +18,10 @@ const Guitter = () => {
         }
           setcart(newcart)
     }
+    const removecart=(product)=>{
+        let newcart=[...cart,product] 
+        setcart([])  
+    }
     return (
         <div className='body-container'>
             <div className="product-container">
@@ -29,7 +33,7 @@ const Guitter = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart carts={cart}></Cart>  
+                <Cart carts={cart} removecart={removecart}></Cart>  
             </div>
         </div>
     );
