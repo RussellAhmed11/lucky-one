@@ -12,8 +12,8 @@ const Guitter = () => {
         .then(data=>setproducts(data))
     },[])
     const handleAddToCart=(product)=>{
-      const newcart=[...cart,product]
-      setcart(newcart)
+        const newcart=[...cart,product] 
+          setcart(newcart)
     }
     return (
         <div className='body-container'>
@@ -25,9 +25,7 @@ const Guitter = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart carts={cart}></Cart>
-              
-             
+                <Cart carts={cart}></Cart>  
             </div>
         </div>
     );
